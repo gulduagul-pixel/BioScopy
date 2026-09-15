@@ -1,0 +1,7 @@
+{
+  "name": "Human Body Explorer",
+  "description": "An interactive, modern educational platform to visually explore the major organs and body systems with anatomical illustrations and scientific facts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
