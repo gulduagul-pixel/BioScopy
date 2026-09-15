@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, activeSection }) => 
           </div>
           <div>
             <span className="text-base sm:text-lg font-bold font-display text-white tracking-tight flex items-center gap-1.5">
-              Human Body Explorer
+              Bio-Scopy
             </span>
             <span className="text-[10px] font-mono text-cyan-400 tracking-wider uppercase block -mt-1">
               Interactive Anatomy
