@@ -1,4 +1,11 @@
 import { OrganData, BodySystemData, OrganId, SystemId } from '../types';
+import brainImg from '../assets/images/organ_brain_3d_1789316072741.jpg';
+import heartImg from '../assets/images/organ_heart_3d_1789316060970.jpg';
+import lungsImg from '../assets/images/organ_lungs_3d_1789316084859.jpg';
+import liverImg from '../assets/images/organ_liver_3d_1789316095264.jpg';
+import stomachImg from '../assets/images/organ_stomach_3d_1789316108527.jpg';
+import digestImg from '../assets/images/organ_digest_3d_1789316134924.jpg';
+import kidneysImg from '../assets/images/organ_kidneys_3d_1789316123399.jpg';
 
 export const ORGANS: Record<OrganId, OrganData> = {
   brain: {
@@ -30,7 +37,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Neurons', value: '86', unit: 'billion' },
       { label: 'Metabolic Share', value: '20%' }
     ],
-    imageUrl: '/src/assets/images/organ_brain_3d_1789316072741.jpg',
+    imageUrl: brainImg,
     viewZoom: 'head',
     hotspot: { cx: 200, cy: 78, r: 24 }
   },
@@ -63,7 +70,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Daily Output', value: '7,500', unit: 'L' },
       { label: 'Chambers', value: '4' }
     ],
-    imageUrl: '/src/assets/images/organ_heart_3d_1789316060970.jpg',
+    imageUrl: heartImg,
     viewZoom: 'thorax',
     hotspot: { cx: 204, cy: 196, r: 22 }
   },
@@ -96,7 +103,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Alveoli Count', value: '480', unit: 'million' },
       { label: 'Gas Exchange Area', value: '70', unit: 'm²' }
     ],
-    imageUrl: '/src/assets/images/organ_lungs_3d_1789316084859.jpg',
+    imageUrl: lungsImg,
     viewZoom: 'thorax',
     hotspot: { cx: 168, cy: 190, r: 28 }
   },
@@ -129,7 +136,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Blood Filtered', value: '1.4', unit: 'L / min' },
       { label: 'Daily Bile', value: '800-1000', unit: 'mL' }
     ],
-    imageUrl: '/src/assets/images/organ_liver_3d_1789316095264.jpg',
+    imageUrl: liverImg,
     viewZoom: 'abdomen',
     hotspot: { cx: 182, cy: 242, r: 24 }
   },
@@ -162,7 +169,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Capacity', value: '2 - 4', unit: 'L' },
       { label: 'Lining Renewal', value: '72 - 96', unit: 'hrs' }
     ],
-    imageUrl: '/src/assets/images/organ_stomach_3d_1789316108527.jpg',
+    imageUrl: stomachImg,
     viewZoom: 'abdomen',
     hotspot: { cx: 220, cy: 246, r: 20 }
   },
@@ -195,7 +202,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Surface Area', value: '32', unit: 'm²' },
       { label: 'Microbiome', value: '38+', unit: 'trillion cells' }
     ],
-    imageUrl: '/src/assets/images/organ_digest_3d_1789316134924.jpg',
+    imageUrl: digestImg,
     viewZoom: 'abdomen',
     hotspot: { cx: 200, cy: 300, r: 26 }
   },
@@ -228,7 +235,7 @@ export const ORGANS: Record<OrganId, OrganData> = {
       { label: 'Nephrons', value: '2', unit: 'million' },
       { label: 'Reabsorption', value: '99%' }
     ],
-    imageUrl: '/src/assets/images/organ_kidneys_3d_1789316123399.jpg',
+    imageUrl: kidneysImg,
     viewZoom: 'abdomen',
     hotspot: { cx: 200, cy: 278, r: 24 }
   },
